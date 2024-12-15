@@ -1,0 +1,94 @@
+ion-card {
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(5px); 
+    box-shadow: none;
+    border-radius: 5%;
+    margin: 10%  auto;
+    width: 90%; 
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 20%;
+  }
+
+  .login-container img {
+    width: 60%;  
+  }
+
+  ion-card ion-input {
+    --background: transparent; 
+    color: darkgreen; 
+  }
+  
+  ion-card input {
+    background-color: transparent; 
+    color: darkgreen; 
+  }
+
+
+  ion-card ion-label {
+    --background: transparent; 
+    color: #D35400; 
+  }
+  
+  ion-card label {
+    background-color: transparent; 
+    color: #D35400; 
+  }
+
+
+  ion-card ion-item {
+    --background: transparent; 
+    color: #D35400; 
+  }
+  
+  ion-card ion-button.login-button {
+    --background: #D35400; 
+    color: white;
+  }
+
+
+  ion-card ion-select {
+    --background: transparent; 
+    color: darkgreen; 
+  }
+  
+  ion-card select {
+    background-color: transparent; 
+    color: darkgreen; 
+  }
+
+  mat-form-field {
+    background-color: transparent; 
+  }
+  
+  mat-form-field .mat-form-field-flex {
+    background-color: transparent; 
+  }
+  
+  mat-form-field .mat-form-field-infix {
+    background-color: transparent; 
+  }
+  
+  input[matInput] {
+    background-color: transparent; 
+    color: #D35400; 
+  }
+  
+  mat-datepicker-toggle {
+    background-color: transparent; 
+  }
+
+  ion-card ion-button {
+    --background: #D35400;
+    color: white; 
+    padding: 10px;
+  }
+
+  .center-title {
+    margin: 0 auto;
+    text-align: center;
+  }

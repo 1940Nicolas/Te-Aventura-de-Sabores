@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>  
+    <app-company-name [companyName]="'Té Aventura de Sabores'"></app-company-name>
+    <ion-buttons slot="end"> 
+        <ion-menu-button menu="mainMenu"></ion-menu-button>
+   </ion-buttons>  
+  </ion-toolbar> 
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding"> 
+  
+
+  <div class="user-info">
+    <img src="../../assets/img/tes/6393bf22446e8.gif" alt="User Avatar" class="user-avatar" />
+    <h2><strong>{{ bienvenidos }}</strong><br/> {{ email }}</h2>
+    
+  </div>
+
+
+  <div class="ofertas-info"> 
+    <h2>Ofertas Té de Sabores 2.000</h2>
+  </div>
+
+
+ <ion-card>
+  <img src="../../assets/img/tes/0.jpg" alt="té de caja" />
+  <ion-card-header>
+    <ion-card-title>té de caja</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Deliciosos y refrescantes té saludables.
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <img src="../../assets/img/tes/15.jpg" alt="té de bolsa" />
+  <ion-card-header>
+    <ion-card-title>té de bolsa</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Deliciosos y refrescantes té saludables.
+  </ion-card-content>
+</ion-card>
+
+</ion-content>
